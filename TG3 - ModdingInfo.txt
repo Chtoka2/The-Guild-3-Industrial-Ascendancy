@@ -1,0 +1,12 @@
+The Guild 3 - Modding
+
+Support for script modding has been added to The Guild 3. Please follow these steps to create your own variations on the game behaviour:
+
+1. Unzip "guild3_scripts.zip to any folder of your choosing. Make sure you preserve the "media" folder and the structure within it.
+2. Read "TG3 - Script Documentation" on how to modify scripts and values.
+3. Test your changes by starting the game like: Guild3.exe -mod <path_to_the folder>
+(In case of the Steam version, you can add the command line by right clicking the game in the Library, Properties/General and Launch options at the bottom)
+
+In case your modifications take no effect, make sure your mod folder contains the "media" folder within it, and the scripts are properly modified. Do not delete any files, even if you haven't modified them.
+
+If you get an error window saying "Script error", press OK, and let it run until it quits by itself, or exit manually from the main menu. Check the contents of "scripts.log" which will be in the root of the specified mod folder.
